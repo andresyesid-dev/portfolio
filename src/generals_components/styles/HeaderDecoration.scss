@@ -1,30 +1,33 @@
 .circle_right {
     position: absolute;
-    top: 8.5vh; 
+    top: 4vw; 
     right: 3.2vw;
     width: 8vw; 
     height: 8vw; 
     border-radius: 50%;
     background: linear-gradient(to right, #988fff 0%, #585ad6 75%, #4b4dcb 100%);
     z-index: 2;
+    animation: downTopOne 3.5s ease infinite;
+    animation-delay: -0.4s;
 }
 
 .circle_right_small {
     position: absolute;
-    top: 3.75vh; 
+    top: 3vw; 
     right: 11vw; 
-    width: 2.7vw; 
-    height: 2.7vw;
+    width: 3vw; 
+    height: 3vw;
     border-radius: 50%;
     background: linear-gradient(to top right, #8c82ff 0%, #5d5fdb 75% 100%);
+    animation: downTopTwo 3.5s ease infinite;
 }
 
 .line_right {
     position: absolute;
-    top: 17vh;
+    top: 9vw;
     right: -3.5vw;
     width: 13.4vw; 
-    height: 25vh;
+    height: 13.5vw;
     border-radius: 80% 0 0 80%;
     border: 2px solid #d5d5d5; 
     z-index: 1;
@@ -34,32 +37,60 @@
 
 .circle_left {
     position: absolute;
-    top: 16vh; 
+    top: 9vw; 
     left: 3.2vw;
     width: 8vw; 
     height: 8vw; 
     border-radius: 50%;
     background: linear-gradient(to left, #988fff 0%, #585ad6 75%, #4b4dcb 100%);
+    animation: downTopOne 3.5s ease infinite;
+    animation-delay: -1s;
     z-index: 2;
 }
 
 .circle_left_small {
     position: absolute;
-    top: 32vh; 
+    top: 16vw; 
     left: 11vw; 
-    width: 2.7vw; 
-    height: 2.7vw;
+    width: 3vw; 
+    height: 3vw;
     border-radius: 50%;
     background: linear-gradient(to bottom left, #8c82ff 0%, #5d5fdb 75% 100%);
+    animation: downTopTwo 3.5s ease infinite;
+    animation-delay: -0.5s;
 }
 
 .line_left {
     position: absolute;
-    top: 1vh;
+    top: 1vw;
     left: -3.5vw;
     width: 13.5vw; 
-    height: 25vh;
+    height: 13.5vw;
     border-radius: 0 80% 80% 0;
     border: 2px solid #d5d5d5; 
     z-index: 1;
+}
+
+@keyframes downTopOne {
+    0% {
+        transform: translateY(0); /* Posición original */
+    }
+    50% {
+        transform: translateY(0.7vw); /* Subir 4vw */
+    }
+    100% {
+        transform: translateY(0); /* Regresar a la posición original */
+    }
+}
+
+@keyframes downTopTwo {
+    0% {
+        transform: translateY(0); /* Posición original */
+    }
+    50% {
+        transform: translateY(1vw); /* Subir 4vw */
+    }
+    100% {
+        transform: translateY(0); /* Regresar a la posición original */
+    }
 }
