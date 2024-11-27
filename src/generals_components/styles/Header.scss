@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     .im {
-        font-size: 135px;
+        font-size: 134px;
         color: #f2f2f2;
         text-align: center;
         margin: 0;
@@ -10,11 +10,34 @@
     }
     .name {
         margin: 0;
-        font-size: 93px;
+        font-size: 92px;
         color: #5449CE;
         text-align: center;
         font-family: 'title300';
         transform: translateY(-70px);
         z-index: 1;
+    }
+}
+
+.description {
+    transform: translateY(-20px);
+    max-width: 950px;
+    margin: auto;
+    p {
+        margin: 0;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: 100 ;
+        color: #777;
+        span {
+            color: #514fdc;
+        }
+    }
+    @media (max-width: 1000px){
+        width: calc(100% - 50px);
+        margin-left: 25px;
     }
 }
