@@ -1,10 +1,12 @@
-import './App.css'
+import Menu from './generals_components/Menu'
+import Home from './layout/Home'
 
 function App() {
 
   return (
     <>
-      <h1>Porfolio</h1>
+      <Menu/>
+      <Home/>
     </>
   )
 }

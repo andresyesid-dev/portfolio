@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background: #10111f;
+    font-family: 'default200';
+    overflow-x: hidden;
+  }
+  
+  @for $i from 100 through 500 {
+    @font-face {
+      font-family: 'default#{$i}';
+      src: url('assets/fonts/default#{$i}.ttf') format('truetype');
+      font-style: normal;
+    }
+  }
