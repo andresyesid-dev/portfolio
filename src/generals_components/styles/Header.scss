@@ -1,20 +1,20 @@
 .header {
     width: 100%;
-    margin-top: 15px;
     .im {
         font-size: 135px;
         color: #f2f2f2;
         text-align: center;
         margin: 0;
         font-family: 'title300';
+        transform: translateY(15px);
     }
     .name {
         margin: 0;
-        font-size: 92px;
+        font-size: 93px;
         color: #5449CE;
         text-align: center;
-        transform: translateY(-85px);
         font-family: 'title300';
+        transform: translateY(-70px);
         z-index: 1;
     }
 }
