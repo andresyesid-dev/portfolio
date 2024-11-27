@@ -12,3 +12,11 @@ body {
       font-style: normal;
     }
   }
+
+  @for $i from 100 through 300 {
+    @font-face {
+      font-family: 'title#{$i}';
+      src: url('assets/fonts/title#{$i}.otf') format('truetype');
+      font-style: normal;
+    }
+  }
