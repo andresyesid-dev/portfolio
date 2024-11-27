@@ -1,4 +1,4 @@
-import './styles/header_decoration.scss'
+import './styles/HeaderDecoration.scss'
 
 function HeaderDecoration() {
     return (

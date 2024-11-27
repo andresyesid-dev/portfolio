@@ -1,11 +1,12 @@
-import HeaderDecoration from '../generals_components/header_decoration'
+import Header from '../generals_components/Header'
+import HeaderDecoration from '../generals_components/HeaderDecoration'
 import './styles/Home.scss'
 
 function Home() {
     return (
         <>
             <HeaderDecoration/>
-            <h1>Home</h1>
+            <Header/>
         </>
     )
 }
