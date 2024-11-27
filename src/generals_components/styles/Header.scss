@@ -1,12 +1,12 @@
 .header {
     width: 100%;
     .im {
-        font-size: 134px;
-        color: #f2f2f2;
+        font-size: 132px;
+        color: #f0f0f0;
         text-align: center;
         margin: 0;
         font-family: 'title300';
-        transform: translateY(15px);
+        transform: translateY(38px);
     }
     .name {
         margin: 0;
@@ -14,7 +14,7 @@
         color: #5449CE;
         text-align: center;
         font-family: 'title300';
-        transform: translateY(-70px);
+        transform: translateY(-50px);
         z-index: 1;
     }
 }
@@ -22,7 +22,7 @@
 .description {
     transform: translateY(-20px);
     max-width: 950px;
-    margin: auto;
+    margin: 15px auto;
     p {
         margin: 0;
         line-height: 24px;
@@ -34,6 +34,41 @@
         color: #777;
         span {
             color: #514fdc;
+        }
+    }
+    @media (max-width: 1000px){
+        width: calc(100% - 50px);
+        margin-left: 25px;
+    }
+}
+
+.social_media {
+    max-width: 950px;
+    margin: 5px auto;
+    display: flex;
+    p {
+        margin: 0;
+        padding: 0 19px;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+        font-size: 17px;
+        font-family: sans-serif;
+        font-weight: 100 ;
+        color: #a0a0a0;
+        border-left: 1px solid #bbb;
+        cursor: pointer;
+        span {
+            color: #888;
+            padding-right: 3px;
+        }
+        span.solid{
+            font-size: 16px;
+        }
+        &:hover {
+            color: #808080;
+            span {
+                color: #666;
+            }
         }
     }
     @media (max-width: 1000px){
