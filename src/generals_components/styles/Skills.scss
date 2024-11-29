@@ -1,15 +1,13 @@
-.experience {
+.skills {
     max-width: 950px;
-    margin: 150px auto 0;
+    margin: 60px auto 0;
+
     .title {
         font-size: 122px;
         color: #f0f0f0;
         text-align: center;
         margin: 0;
         font-family: 'title300';
-    }
-    .cards {
-        transform: translateY(-45px);
     }
 
     @media (max-width: 1000px) {

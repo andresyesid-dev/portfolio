@@ -1,6 +1,7 @@
 import Experience from '../generals_components/Experience'
 import Header from '../generals_components/Header'
 import HeaderDecoration from '../generals_components/HeaderDecoration'
+import Skills from '../generals_components/skills'
 import './styles/Home.scss'
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
             <HeaderDecoration />
             <Header />
             <Experience />
+            <Skills />
         </>
     )
 }
