@@ -4,8 +4,14 @@ import Card from './ExperienceCard';
 function Experience() {
     const titles: string[] = [
         'IBM',
-        'Joum ',
-        'Soluciones Científicas'
+        'JOUM ',
+        'SOLUCIONES CIENTÍFICAS'
+    ]
+
+    const dates: string[] = [
+        'Dic 2021 - May 2023',
+        'Agu 2023 - May 2024 ',
+        'Jul 2024 - Current '
     ]
 
     const descriptions: string[] = [
@@ -19,9 +25,9 @@ function Experience() {
         <section className='experience'>
             <h1 className='title'>EXPERIENCE</h1>
             <div className='cards'>
-                {descriptions.map((description, index) => (
-                    <Card key={index} title={titles[index]} description={description} />
-                ))}
+            {descriptions.map((description, index) => {
+                return <Card key={index} index={index} title={titles[index]} date={dates[index]}  description={description} />;
+            })}
             </div>
         </section>
     )

@@ -4,9 +4,8 @@ function Menu() {
     return (
         <section className='menu'>
             <p>Home</p>
-            <p>About</p>
+            <p>Experience</p>
             <p>Knowledge</p>
-            <p>Projects</p>
             <p>Contact</p>
         </section>
     )
