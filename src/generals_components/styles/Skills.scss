@@ -1,0 +1,47 @@
+.skills {
+    max-width: 950px;
+    margin: 60px auto 0;
+
+    .title {
+        font-size: 122px;
+        color: #f0f0f0;
+        text-align: center;
+        margin: 0;
+        font-family: 'title300';
+    }
+
+    .sections {
+        transform: translateY(-85px);
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        h4 {
+            margin: 0;
+            font-size: 20px;
+            border-left: 3px solid #473bd0;
+            padding-left: 10px;
+            color: #473bd0;
+            font-family: 'default300';
+        }
+        .cards {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 19px;
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+                img {
+                    width: 66%;
+                    margin: 18%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1000px) {
+        width: calc(100% - 50px);
+        margin-left: 25px;
+    }
+}

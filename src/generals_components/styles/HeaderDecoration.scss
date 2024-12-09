@@ -97,3 +97,55 @@
         transform: translateY(0); /* Regresar a la posición original */
     }
 }
+
+.circle_left_down {
+    position: absolute;
+    top: 180vh; 
+    left: 1.5vw;
+    width: 5.3vw; 
+    height: 5.3vw; 
+    border-radius: 50%;
+    background: linear-gradient(to left, #988fff 0%, #585ad6 75%, #4b4dcb 100%);
+    animation: downTopOne 3.5s ease infinite;
+    animation-delay: -1s;
+    z-index: 2;
+}
+
+.line_left_down {
+    position: absolute;
+    top: 186vh;
+    left: -6vw;
+    width: 13.5vw; 
+    height: 14vw;
+    border-radius: 0 80% 80% 0; 
+    box-shadow: -1px 1px 14px rgba(0, 0, 0, 0.19);
+    background: rgba($color: #fff, $alpha: .5);
+    backdrop-filter: blur(3.5px);
+    z-index: 3;
+}
+
+.circle_right_down {
+    position: absolute;
+    top: 122vh;
+    right: 6vw; 
+    width: 4.5vw; 
+    height: 4.5vw;
+    border-radius: 50%;
+    background: linear-gradient(to top right, #8c82ff 0%, #5d5fdb 75% 100%);
+    animation: downTopTwo 3.5s ease infinite;
+}
+
+.line_right_down {
+    position: absolute;
+    top: 125vh;
+    right: -4.5vw;
+    width: 14.4vw; 
+    height: 14.5vw;
+    border-radius: 80% 0 0 80%;
+    border: none; 
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.19);
+    border: none; 
+    background: rgba($color: #fff, $alpha: .5);
+    backdrop-filter: blur(3.5px);
+    z-index: 1;
+}
