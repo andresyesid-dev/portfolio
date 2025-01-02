@@ -25,13 +25,12 @@
     margin: 15px auto;
     p {
         margin: 0;
-        line-height: 24px;
+        line-height: 25px;
         letter-spacing: 0.5px;
         word-spacing: 0.5px;
         font-size: 19px;
-        font-family: sans-serif;
-        font-weight: 100 ;
-        color: #777;
+        font-family: Segoe UI, Helvetica, helvetica, arial, sans-serif;
+        color: #707070;
         span {
             color: #514fdc;
         }
@@ -52,13 +51,12 @@
         letter-spacing: 0.5px;
         word-spacing: 0.5px;
         font-size: 17px;
-        font-family: sans-serif;
-        font-weight: 100 ;
+        font-family: Segoe UI, Helvetica, helvetica, arial, sans-serif;
         color: #a0a0a0;
         border-left: 1px solid #bbb;
         cursor: pointer;
         span {
-            color: #888;
+            color: #909090;
             padding-right: 3px;
         }
         span.solid{
@@ -67,7 +65,7 @@
         &:hover {
             color: #808080;
             span {
-                color: #666;
+                color: #707070;
             }
         }
     }

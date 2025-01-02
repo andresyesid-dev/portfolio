@@ -10,6 +10,11 @@ function HeaderDecoration() {
             <div className="circle_left"></div>
             <div className="circle_left_small"></div>
             <div className="line_left"></div>
+
+            <div className="circle_left_down"></div>
+            <div className="line_left_down"></div>
+            <div className="circle_right_down"></div>
+            <div className="line_right_down"></div>
         </>
     )
 }
