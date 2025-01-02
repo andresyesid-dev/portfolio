@@ -11,7 +11,7 @@ type Props = {
 }
 
 function Card({index, title, date, description}: Props) {
-    const imgs: string[] = ['ibm', 'joum','scientificas']
+    const imgs: string[] = ['scientificas', 'joum','ibm' ]
     const img = imgs[index];
     return (
         <div className="experience_card"> 
@@ -26,7 +26,7 @@ function Card({index, title, date, description}: Props) {
                     </div>
                 </section>
                 <section className="right">
-                    <img src={`src/assets/imgs/${img}.png`} />
+                    <img src={`/assets/imgs/${img}.png`} />
                 </section>
             </div>
         </div>

@@ -29,16 +29,17 @@
                 padding: 3px 10px;
                 border-radius: 3px;
                 background: linear-gradient(to right, #8c93f5, #85b2ee);
+                font-family: Segoe UI, Helvetica, helvetica, arial, sans-serif;
+                font-weight: 500;
                 display: inline-block;
                 color: white;
-                font-weight: bold;
             }
 
             p {
                 font-size: 17px;
-                color: #555;
-                font-family: sans-serif;
-                line-height: 23px;
+                color: #606060;
+                font-family: Segoe UI, Helvetica, helvetica, arial, sans-serif;
+                line-height: 22px;
             }
 
             .directions {
@@ -52,7 +53,7 @@
                     color: #aaa;
                     padding: 2px 26px;
                     border-radius: 14px;
-                    border: 1px solid #999;
+                    border: 1px solid #a5a5a5;
                     overflow: hidden;
                     transition: 0.5s border;
                     z-index: 1;
