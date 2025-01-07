@@ -1,0 +1,47 @@
+.menu {
+    width: 100%;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    p {
+        position: relative;
+        font-size: 17px;
+        color: #777;
+        margin: 0;
+        padding: 3px;
+        cursor: pointer;
+        font-family: 'default300';
+        transition: .3s;
+        &:hover {
+            color: #4343dd;
+            &::after {
+                animation: border_line ease .5s;
+                width: 100%;
+            }
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            border-radius: 1px;
+            left: 0;
+            transition: 0.3s;
+            background: #5555f0;
+        }
+    }
+    
+}
+
+@keyframes border_line {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
